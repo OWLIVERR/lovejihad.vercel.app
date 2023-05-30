@@ -10,6 +10,7 @@ const Card = ({ name, date, content, videoUrl, whoIsJihadi }) => {
         <div className="video">
           <video width="100%" controls>
             <source src={videoUrl} type="video/mp4" />
+            Your browser does not support the video tag.
           </video>
         </div>
         <h3>Who is Jihadi?</h3>
