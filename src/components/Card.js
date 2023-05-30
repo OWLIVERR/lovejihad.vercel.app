@@ -8,7 +8,7 @@ const Card = ({ name, date, content, videoUrl, whoIsJihadi }) => {
       <div className="content">
         {content}
         <div className="video">
-          <iframe frameborder="0" src={videoUrl}></iframe>
+          <iframe frameBorder="0" src={videoUrl}></iframe>
         </div>
         <h3>Who is Jihadi?</h3>
         {whoIsJihadi}
